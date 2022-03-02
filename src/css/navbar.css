@@ -1,0 +1,72 @@
+/*
+    Navbar
+*/
+.navbar{
+    display: flex;
+    justify-content: end;
+    padding: 2% 5%;
+    align-items: center;
+    /* background-color: #212121; */
+}
+.navbar > ul{
+    padding: 0 5%;
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.navbar > ul > span {
+    display: none;
+}
+.navbar > ul > li {
+    margin: 0 10% 0 0;
+}
+.navbar > ul > li > a {
+    font-weight: 800;
+    text-decoration: none;
+    color: #fff;
+}
+.navbar > ul > li > a:hover,
+.navbar > ul > li > a:active {
+    color: lightskyblue;
+}
+
+.menu-icon{
+    display: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-icon {
+        display: block;
+    }
+    .navbar > ul {
+        width: 100%;
+        height: auto;
+
+        padding: 5% 0;
+        
+        display: none; /* when you click the btn, it goes to 'block' */
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        background-color: #212121;
+        text-align: center;
+    }
+    .navbar > ul > span {
+        color: white;
+        display: flex;
+        justify-content: end;
+        padding: 0 5% 5% 0;
+    }
+    .navbar > ul > li {
+        padding: 5%;
+        width: 100%;
+    }
+    .navbar > ul > li:hover {
+       background-color: lightskyblue;
+    }
+    .navbar > ul > li > a {
+        display: block;
+    }
+}

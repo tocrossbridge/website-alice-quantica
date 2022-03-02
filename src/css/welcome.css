@@ -1,0 +1,28 @@
+/*
+    Welcome
+*/
+.welcome{
+    width: 100%;
+    min-height: 200vh;
+    background-image: url('../images/bg-welcome.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.welcome__content{
+    margin-top: 50%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.welcome__title{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 600px) {
+    .welcome__title{
+        font-size: 24px;
+    }
+}

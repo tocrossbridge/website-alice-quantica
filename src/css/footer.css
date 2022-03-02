@@ -1,0 +1,42 @@
+/*
+    Footer
+*/
+footer{
+    margin: 5% 0 0 0;
+    padding: 8% 0;
+    color: #fff;
+    background-image: url('../images/bg-footer.png');
+    background-size: cover;
+    background-position: top;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer__content div:first-child{
+    width: 60%;
+}
+.footer__content div{
+    width: 30%;
+    margin: 0 2%;
+}
+
+.footer__title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.footer__description{
+    font-size: 14px;
+}
+
+.footer__list{
+    list-style: none;
+}
+
+.footer__list li a {
+    text-decoration: none;
+    color: #fff;
+}
