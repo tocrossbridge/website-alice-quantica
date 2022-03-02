@@ -40,3 +40,8 @@ footer{
     text-decoration: none;
     color: #fff;
 }
+
+.footer__icon{
+    max-width: 30px;
+    margin: 0 5%;
+}
