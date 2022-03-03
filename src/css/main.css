@@ -126,6 +126,10 @@ p{
 }
 
 /* Alice Play & Actors */
+.the-play{
+    color: #fff;
+    background-color: #535DF5;
+}
 .alice-actors__img{
     max-width: 300px;
     margin: 2%;
