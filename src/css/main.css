@@ -78,6 +78,12 @@
 .iframe{
     max-width: 100%;
 }
+.card{
+    padding: 10%;
+    border-radius: 8px;
+    background-color: #00000069;
+    color: #fff;
+}
 
 @media screen and (max-width: 900px) {
     .container{ margin: 6% 10%; }
