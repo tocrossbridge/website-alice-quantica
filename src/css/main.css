@@ -72,6 +72,11 @@
     font-weight: 500;
 }
 
+/* Video Parallax */
+.iframe{
+    max-width: 100%;
+}
+
 @media screen and (max-width: 900px) {
     .d-md-flex-d-sm-block{
         display: block;
