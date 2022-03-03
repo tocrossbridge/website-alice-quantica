@@ -47,6 +47,12 @@
 .ml-5{margin-left: 5%;}
 .mb-5{margin-bottom: 5%;}
 
+.pb-auto{padding-bottom: auto;}
+.pt-5{padding-top: 5%;}
+.pr-5{padding-right: 5%;}
+.pl-5{padding-left: 5%;}
+.pb-5{padding-bottom: 5%;}
+
 .col-md-6{ width: 50%; }
 .col-md-3{ width: 25%; }
 
