@@ -65,6 +65,16 @@ overflow-x: hidden;
     background: #888;
 }
 
+/* if need parallax effect*/
+.parallax{
+    min-height: 500px;
+    background-image: url(../images/bg-parallax.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 p{
     font-size: 14px;
     line-height: 22px;
@@ -145,15 +155,11 @@ p{
     font-size: 14px;
 }
 
-/* Video Parallax */
-.parallax{
-    min-height: 500px;
-    background-image: url(../images/bg-parallax.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* Video */
+.video__section{
+    background-color: #535DF5;
 }
+
 .iframe{
     max-width: 100%;
 }
