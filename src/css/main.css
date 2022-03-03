@@ -75,6 +75,14 @@
 }
 
 /* Video Parallax */
+.parallax{
+    min-height: 500px;
+    background-image: url(../images/bg-parallax.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .iframe{
     max-width: 100%;
 }
