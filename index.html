@@ -8,6 +8,10 @@
 
     <!-- style -->
     <link rel="stylesheet" href="./src/css/main.css">
+
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
 </head>
 <body>
 
@@ -159,11 +163,19 @@
     </div>
 
     <!-- partners -->
-    <div class="container mt-5 mb-5">
-        <p class="title">Parceiros</p>
-        <!-- TODO: slider -->
+    <div class="partners"> 
+        <div class="container mt-5 mb-5">
+            <p class="title">Parceiros</p>
+            <div class="partners__carousel">
+                <div><img src="./src/images/partners/Escolinha_de_arte.png" alt="Logo Escolinha de Arte - CEP"></div>
+                <div><img src="./src/images/partners/GRUTA.png" alt="Logo Grupo de Teatro Amador - GRUTA"></div>
+                <div><img src="./src/images/partners/Colegio_Estadual_Parana.png" alt="Logo Colegio Estadual Do Parana"></div>
+                <div><img src="./src/images/partners/GPACT.png" alt="Logo GPACT "></div>
+                <div><img src="./src//images//partners//PPGFCET.png" alt="Logo PPGFCET"></div>
+            </div>
+        </div>
     </div>
-
+    
     <footer>
         <div class="container mt-5 mb-5">
             <div class="footer__content d-md-flex-d-sm-block">
@@ -200,6 +212,9 @@
         </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./src/js/main.js"></script>
+
 </body>
 </html>
