@@ -2,10 +2,6 @@
     Partners
 */
 
-.partners__carousel {
-  margin: 2rem auto;
-}
-
 @media screen and (max-width: 600px) {
   .partners__carousel div {
     margin: auto 1rem;
@@ -19,12 +15,20 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .partners__carousel {
+    margin: 2rem auto;
+  }
+
   .partners__carousel div {
     margin: auto 2rem;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  .partners__carousel {
+    margin: 3rem auto;
+  }
+
   .partners__carousel div {
     margin: auto 3rem;
   }
