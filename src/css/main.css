@@ -150,7 +150,7 @@ p{
     .d-md-flex-d-sm-block{display: block; }
     .col-12{ width: 100%; }
 
-    /* About */
+    img,
     .about__img{
         max-width: 100%;
         max-width: -webkit-fill-available;
