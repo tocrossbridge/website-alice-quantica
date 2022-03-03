@@ -10,21 +10,16 @@ footer{
     background-position: top;
 }
 
-.footer__content {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.footer__content div:first-child{
-    width: 60%;
-}
 .footer__content div{
-    width: 30%;
-    margin: 0 2%;
+    margin: 0 0 0 2%;
+    border-right: 1px solid #fff;
+}
+.footer__content div:last-child{
+    border-right: none;
 }
 
 .footer__title{
+    margin: 0 0 10% 0;
     font-size: 24px;
     font-weight: 600;
 }

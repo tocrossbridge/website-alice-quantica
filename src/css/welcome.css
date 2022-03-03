@@ -3,14 +3,14 @@
 */
 .welcome{
     width: 100%;
-    min-height: 200vh;
     background-image: url('../images/bg-welcome.png');
-    background-position: top;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .welcome__content{
-    margin-top: 50%;
+    margin: 40% 0 0 0;
+    padding: 0 0 10% 0;
     display: flex;
     justify-content: center;
     color: #fff;
