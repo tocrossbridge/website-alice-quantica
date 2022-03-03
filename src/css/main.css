@@ -37,11 +37,39 @@ overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
+
+/* scrollbar */
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #0093FE #9A34FC;
+  }
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+    height: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #555;
+}
+*::-webkit-scrollbar-thumb {
+    background: #9A34FC;
+    border-radius: 20px;
+    border: 3px solid #9A34FC;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
 p{
     font-size: 14px;
     line-height: 22px;
 }
-
+  
 .container{
     max-width: 800px;
     align-items: center;
