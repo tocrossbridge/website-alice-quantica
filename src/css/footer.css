@@ -48,3 +48,9 @@ footer{
 .footer__copyright p{
     font-size: 12px;
 }
+
+@media screen and (max-width: 900px) {
+    .footer__content div{
+        margin: 10% 0 0 2%;
+    }
+}
