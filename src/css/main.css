@@ -52,6 +52,8 @@ p{
 .ml-5{margin-left: 5%;}
 .mb-5{margin-bottom: 5%;}
 
+.m-auto-2{ margin: auto 2%!important; }
+
 .pb-auto{padding-bottom: auto;}
 .pt-5{padding-top: 5%;}
 .pr-5{padding-right: 5%;}
