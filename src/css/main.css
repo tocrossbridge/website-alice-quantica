@@ -78,4 +78,10 @@
     }
     
     .col-12{ width: 100%; }
+
+    /* About */
+    .about__img{
+        max-width: 100%;
+        max-width: -webkit-fill-available;
+    }
 }
