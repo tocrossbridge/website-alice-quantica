@@ -3,7 +3,6 @@
 */
 footer{
     margin: 5% 0 0 0;
-    padding: 8% 0;
     color: #fff;
     background-image: url('../images/bg-footer.png');
     background-size: cover;
@@ -39,4 +38,13 @@ footer{
 .footer__icon{
     max-width: 30px;
     margin: 0 5%;
+}
+.footer__copyright{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #313883;
+}
+.footer__copyright p{
+    font-size: 12px;
 }
