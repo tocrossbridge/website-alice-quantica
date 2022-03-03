@@ -1,0 +1,14 @@
+/*
+    Partners
+*/
+
+.partners__carousel .slick-prev button,
+.partners__carousel .slick-next {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .partners__carousel div {
+    margin: auto 0.7rem;
+  }
+}
