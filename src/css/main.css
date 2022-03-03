@@ -75,6 +75,11 @@ overflow-x: hidden;
     background-size: cover;
 }
 
+/* Slick config */
+.slick-slide img{
+    max-width: 200px;
+}
+
 p{
     font-size: 14px;
     line-height: 22px;
