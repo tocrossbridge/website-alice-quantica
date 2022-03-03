@@ -104,6 +104,35 @@
     color: #fff;
 }
 
+/* FAQ */
+.collapsible{
+    width: 100%;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+}
+.collapsible::after{
+    content: '+';
+    font-size: 36px;
+    color: #212121;
+    float: right;
+}
+.active::after{
+    content: '-';
+}
+.collapsible__content{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+
+/* Responsive */
+
 @media screen and (max-width: 900px) {
     .container{ margin: 6% 10%; }
     .d-md-flex-d-sm-block{display: block; }
