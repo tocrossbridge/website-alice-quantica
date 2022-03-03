@@ -78,10 +78,8 @@
 }
 
 @media screen and (max-width: 900px) {
-    .d-md-flex-d-sm-block{
-        display: block;
-    }
-    
+    .container{ margin: 6% 10%; }
+    .d-md-flex-d-sm-block{display: block; }
     .col-12{ width: 100%; }
 
     /* About */
