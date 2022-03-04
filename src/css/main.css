@@ -83,8 +83,14 @@ overflow-x: hidden;
 }
 
 p{
+    padding: 5px 0;
     font-size: 14px;
     line-height: 22px;
+}
+
+a{
+    font-weight: 800;
+    color: #212121;
 }
   
 .container{
@@ -355,5 +361,9 @@ p{
     .alice-actors__img{
         max-width: 100%;
         max-width: -webkit-fill-available;
+    }
+
+    .slider__div{
+        padding: 5px;
     }
 }
