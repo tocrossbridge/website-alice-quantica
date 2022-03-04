@@ -12,12 +12,8 @@ for (var i = 0; i < collapsible.length; i++) {
   });
 }
 
-function openNavbar() {
-  navbarList.style = 'display: block';
-}
-
-function closeNavbar() {
-  navbarList.style = 'display: none';
+function navbar(){
+    navbarList.style.display === 'block' ? navbarList.style.display = "none" : navbarList.style.display = "block"
 }
 
 $('.partners__carousel').slick({

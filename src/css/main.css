@@ -28,17 +28,65 @@
 /*
     General config
 */
+html,
+body{
+width: 100%;
+overflow-x: hidden;
+}
 * {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
+
+/* scrollbar */
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #0093FE #9A34FC;
+  }
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+    height: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #555;
+}
+*::-webkit-scrollbar-thumb {
+    background: #9A34FC;
+    border-radius: 20px;
+    border: 3px solid #9A34FC;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+/* if need parallax effect*/
+.parallax{
+    min-height: 500px;
+    background-image: url(../images/bg-parallax.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Slick config */
+.slick-slide img{
+    max-width: 200px;
+}
+
 p{
     font-size: 14px;
     line-height: 22px;
 }
-
+  
 .container{
     max-width: 800px;
     align-items: center;
@@ -76,6 +124,7 @@ p{
     font-size: 32px;
     font-weight: 800;
     line-height: 35px;
+    text-transform: uppercase;
 }
 .title--upper{
     font-size: 28px;
@@ -93,6 +142,16 @@ p{
     max-width: 400px;
 }
 
+/* Alice Play & Actors */
+.the-play{
+    color: #fff;
+    background-color: #535DF5;
+}
+.alice-actors__img{
+    max-width: 300px;
+    margin: 2%;
+}
+
 /* Round Table */
 .round-table__subtitle{
     font-size: 18px;
@@ -103,15 +162,11 @@ p{
     font-size: 14px;
 }
 
-/* Video Parallax */
-.parallax{
-    min-height: 500px;
-    background-image: url(../images/bg-parallax.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* Video */
+.video__section{
+    background-color: #535DF5;
 }
+
 .iframe{
     max-width: 100%;
 }
@@ -120,6 +175,16 @@ p{
     border-radius: 8px;
     background-color: #ffffffa6;
     color: #000;
+}
+
+/* FAQ */
+.pedagogical-guide__btn{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #0093FE;
 }
 
 /* FAQ */
@@ -157,7 +222,8 @@ p{
     .col-12{ width: 100%; }
 
     img,
-    .about__img{
+    .about__img,
+    .alice-actors__img{
         max-width: 100%;
         max-width: -webkit-fill-available;
     }
