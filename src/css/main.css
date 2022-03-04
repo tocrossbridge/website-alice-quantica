@@ -92,7 +92,7 @@ a{
     font-weight: 800;
     color: #212121;
 }
-  
+
 .container{
     max-width: 75%;
     align-items: center;
@@ -128,6 +128,8 @@ a{
 .col-md-3{ width: 25%; margin: 2%; }
 
 .text--center{text-align: center;}
+
+.color--FC4E47{ color: #FC4E47; }
 
 .title{
     font-size: 32px;
