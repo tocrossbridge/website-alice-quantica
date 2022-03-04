@@ -218,7 +218,10 @@ p{
 /* Responsive */
 
 @media screen and (max-width: 900px) {
-    .container{ margin: 6% auto; }
+    .container{
+        margin: 10% auto;
+        padding: 20% 0;
+    }
     .d-md-flex-d-sm-block{display: block; }
     .col-12{ width: 100%; }
 
