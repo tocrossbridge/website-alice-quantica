@@ -32,10 +32,12 @@
     <div class="welcome">
       <!-- navbar -->
       <div class="navbar">
-        <div class="menu-icon" onclick="openNavbar()">|||</div>
+        <div class="menu-icon" onclick="navbar()">
+          <img src="./src/icons/bars-solid.svg" />
+        </div>
 
         <ul id="navbar-list">
-          <span onclick="closeNavbar()">X</span>
+          <span onclick="navbar()">X</span>
           <li><a href="/index.html">Home</a></li>
           <li><a href="/about.html">Sobre</a></li>
           <li><a href="/resources.html">Recursos</a></li>
@@ -45,13 +47,20 @@
       <!-- content -->
       <div class="welcome__content">
         <img src="" />
-        <p class="welcome__title">Alice Quântica</p>
+        <p
+          class="welcome__title"
+          data-aos="fade-zoom-in"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
+          Alice Quântica
+        </p>
       </div>
     </div>
 
     <!-- about project -->
     <div class="container mt-5 mb-5">
-      <h2 class="title">RECURSOS</h2>
+      <h2 class="title mb-5">RECURSOS</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget diam feugiat lorem lacus
         proin pharetra sapien. Ridiculus aliquet accumsan quis mollis ut euismod ut urna aenean.

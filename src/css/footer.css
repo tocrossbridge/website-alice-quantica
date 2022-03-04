@@ -2,7 +2,9 @@
     Footer
 */
 footer{
-    margin: 5% 0 0 0;
+    position: absolute;
+    margin: 5% 0 0;
+    width: 100vw;
     color: #fff;
     background-image: url('../images/bg-footer.png');
     background-size: cover;
