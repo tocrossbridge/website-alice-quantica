@@ -218,9 +218,9 @@ p{
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: #fff;
+    background-color: #21212185;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -233,7 +233,7 @@ p{
     border-radius: 3px 0 0 3px;
 }
 .slider__prev:hover, .slider__next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: #212121;
   }
 .slider__dot{
     width: 25px;
