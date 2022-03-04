@@ -158,6 +158,12 @@ a{
     line-height: 35px;
 }
 
+.icon--title{
+    width: auto;
+    height: 80px;
+    margin: 0 0 2% 0;
+}
+
 /* About */
 .about__img{
     max-width: 400px;
@@ -295,11 +301,11 @@ a{
 }
 .collapsible{
     width: 100%;
-    padding: 18px;
+    padding: 18px 18px 18px 0;
     border: none;
     text-align: left;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
     outline: none;
     color: #fff;
@@ -352,8 +358,8 @@ a{
 }
 @media screen and (max-width: 900px) {
     .container{
-        margin: 10% auto;
-        padding: 20% 0;
+        margin: 2% auto;
+        padding: 5% 0;
     }
     .d-md-flex-d-sm-block{display: block; }
     .col-12{ width: 100%; }
