@@ -178,7 +178,7 @@ p{
     color: #000;
 }
 
-/* FAQ */
+/* Pedagogical Guide */
 .pedagogical-guide__btn{
     padding: 10px;
     border: none;
@@ -189,6 +189,10 @@ p{
 }
 
 /* FAQ */
+.faq__section{
+    color: #fff;
+    background-color: #535DF5;
+}
 .collapsible{
     width: 100%;
     padding: 18px;
@@ -198,12 +202,13 @@ p{
     font-weight: 600;
     cursor: pointer;
     outline: none;
+    color: #fff;
     background-color: transparent;
 }
 .collapsible::after{
     content: '+';
     font-size: 36px;
-    color: #212121;
+    color: #fff;
     float: right;
 }
 .active::after{
