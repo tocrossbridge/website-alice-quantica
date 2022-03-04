@@ -3,12 +3,9 @@
 */
 footer{
     position: absolute;
-    margin: 5% 0 0;
     width: 100vw;
     color: #fff;
-    background-image: url('../images/bg-footer.png');
-    background-size: cover;
-    background-position: top;
+    background-color: #535DF5;
 }
 
 .footer__content div{
@@ -33,6 +30,7 @@ footer{
 }
 
 .footer__list li a {
+    font-weight: 300;
     text-decoration: none;
     color: #fff;
 }
