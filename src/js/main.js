@@ -45,3 +45,27 @@ $('.partners__carousel').slick({
     },
   ],
 });
+
+// pedagogical guide - slider
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(x){ showSlides(slideIndex += x); }
+function currentSlide(x){ showSlides(slideIndex = x); }
+function showSlides(x){
+
+  var slides = document.getElementsByClassName('slider__div');
+  var dots = document.getElementsByClassName('slider__dot');
+  console.log(dots)
+
+  if(x > slides.length) { slideIndex = 1 }
+  if(x < 1) { slideIndex = slides.length }
+
+  for(var i = 0; i < slides.length; i++){ slides[i].style.display = 'none'; }
+  for(var i = 0; i < dots.length; i++){
+    dots[i].className = dots[i].className.replace(' slider__active', '');
+  }
+  
+  slides[slideIndex-1].style.display = 'block';
+  dots[slideIndex-1].className += ' slider__active';
+}
