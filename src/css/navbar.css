@@ -13,6 +13,7 @@
     display: inline-flex;
     justify-content: space-between;
     list-style: none;
+    z-index: 3;
 }
 .navbar > ul > span {
     display: none;
