@@ -86,7 +86,7 @@ p{
 }
   
 .container{
-    max-width: 800px;
+    max-width: 80%;
     align-items: center;
     margin: 6% auto;
 }
@@ -162,7 +162,8 @@ p{
 
 /* Video */
 .video__section{
-    background-color: #535DF5;
+    background-image: url(../images/video-bg.png);
+    background-repeat: repeat;
 }
 
 .iframe{
@@ -171,7 +172,7 @@ p{
 .card{
     padding: 10%;
     border-radius: 8px;
-    background-color: #ffffffa6;
+    background-color: #ffffffe3;
     color: #000;
 }
 
@@ -215,7 +216,7 @@ p{
 /* Responsive */
 
 @media screen and (max-width: 900px) {
-    .container{ margin: 6% 10%; }
+    .container{ margin: 6% auto; }
     .d-md-flex-d-sm-block{display: block; }
     .col-12{ width: 100%; }
 
