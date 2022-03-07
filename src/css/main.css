@@ -103,7 +103,11 @@ a{
     display: flex;
     justify-content: space-between;
 }
+.d-flex{display: flex;}
 
+.align--center{align-items: center;}
+
+.m-0{margin: 0!important;}
 .mb-auto{margin-bottom: auto;}
 .mt-5{margin-top: 5%;}
 .mr-5{margin-right: 5%;}
@@ -112,6 +116,7 @@ a{
 
 .m-auto-2{ margin: auto 2%!important; }
 
+.p-0{padding: 0!important;}
 .pb-auto{padding-bottom: auto;}
 .pt-5{padding-top: 5%;}
 .pr-5{padding-right: 5%;}
