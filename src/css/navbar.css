@@ -4,11 +4,12 @@
 .navbar{
     display: flex;
     justify-content: end;
-    padding: 2% 5%;
+    padding: 2%;
     align-items: center;
     background-color: #535DF5;
 }
 .navbar > ul{
+    width: 400px;
     padding: 0 5%;
     display: inline-flex;
     justify-content: space-between;
@@ -19,7 +20,7 @@
     display: none;
 }
 .navbar > ul > li {
-    margin: 0 10% 0 0;
+    margin: 0 5% 0 0;
 }
 .navbar > ul > li > a {
     font-weight: 800;
@@ -36,6 +37,11 @@
     color: #fff;
 }
 
+@media screen and (min-width: 1400px) {
+    .navbar > ul{
+        width: 500px;
+    }
+}
 @media screen and (max-width: 600px) {
     .menu-icon {
         display: block;
