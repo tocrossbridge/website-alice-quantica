@@ -69,7 +69,7 @@ overflow-x: hidden;
 
 /* if need parallax effect*/
 .parallax{
-    min-height: 500px;
+    min-height: 200px;
     background-image: url(../images/bg-parallax.png);
     background-attachment: fixed;
     background-position: center;

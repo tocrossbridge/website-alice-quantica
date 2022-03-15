@@ -8,28 +8,18 @@
 
     <!-- style -->
     <link rel="stylesheet" href="./src/css/main.css" />
-
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-
+    <!-- animation div when scroll -->
+    <link href="src/css/aos.css" rel="stylesheet" />
     <!-- slick -->
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-
     <link
       rel="stylesheet"
       type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
   </head>
   <body>
     <!-- welcome -->
-    <div class="welcome">
+    <div>
       <!-- navbar -->
       <div class="navbar">
         <div class="menu-icon" onclick="navbar()">
@@ -38,24 +28,14 @@
 
         <ul id="navbar-list">
           <span onclick="navbar()">X</span>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/about.html">Sobre</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">Sobre</a></li>
           <li><a href="#">Recursos</a></li>
         </ul>
       </div>
 
       <!-- content -->
-      <div class="welcome__content">
-        <img src="" />
-        <p
-          class="welcome__title"
-          data-aos="fade-zoom-in"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-        >
-          Alice Quântica
-        </p>
-      </div>
+      <div class="parallax"></div>
     </div>
 
     <!-- about project -->
@@ -137,6 +117,18 @@
         <p>Alice Quântica, 2022</p>
       </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <!-- animation div when scroll -->
+    <script src="src/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <script src="./src/js/main.js"></script>
   </body>
