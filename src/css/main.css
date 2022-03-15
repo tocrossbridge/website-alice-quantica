@@ -355,6 +355,17 @@ a{
 }
 
 /* Responsive */
+@media screen and (min-width: 2000px){
+    .container{
+        max-width: 1000px;
+    }
+    .welcome{
+        height: 50vh;
+    }
+    .welcome__content {
+        margin: 5% 0 0 0;
+    }
+}
 @media screen and (max-width: 1024px){
     .image-grid{
         --nums-cols: 2;
