@@ -8,10 +8,13 @@
     background-color: #535DF5;
 }
 .welcome__content{
-    margin: 20% 0 0 0;
+    margin: 10% 0 0 0;
     display: flex;
     justify-content: center;
     color: #fff;
+}
+.welcome__logo{
+    max-width: 600px;
 }
 
 .welcome__title{
@@ -20,7 +23,13 @@
 }
 
 @media screen and (max-width: 600px) {
+    .welcome{
+        height: 50vh;
+    }
     .welcome__title{
         font-size: 24px;
+    }
+    .welcome__logo{
+        max-width: 100%;
     }
 }
