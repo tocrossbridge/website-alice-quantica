@@ -1,6 +1,6 @@
 # Alice Quântica
 
-<img src="cool-banner-here-ma-good-freum.png" alt="yes, there's a cool banner here" />
+<img src="banner.png" alt="yes, there's a cool banner here" />
 
 __Made with:__
 HTML, CSS, JS
