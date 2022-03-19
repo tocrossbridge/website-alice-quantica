@@ -14,6 +14,9 @@ __Website:__
 __Description:__
 This is a website of the Alice Project, which started in 2015, and had its first act at staging the play Quantum Alice.
 
+__Figma:__
+<a href="https://www.figma.com/file/kc8VdJwwNkRMkT5z6FHXAD/Alice-Qu%C3%A2ntica?node-id=0%3A1">Click here to see</a>
+
 
 # Quick links &#128150;
   
